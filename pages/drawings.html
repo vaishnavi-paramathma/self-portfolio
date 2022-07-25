@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="./../assets/css/drawings.css">
+</head>
+
+<body>
+    <div class="circle1"> </div>
+    <div class="circle2"> </div>
+    <div class="circle3"> </div>
+    <div class="circle4"> </div>
+    <div class="main-container">;
+    </div>
+    <img class="mySlides" src="./../assets/img/drawing8.jpg">
+    <img class="mySlides" src="./../assets/img/drawing1.jpg">
+    <img class="mySlides" src="./../assets/img/drawing2.jpg">
+    <img class="mySlides" src="./../assets/img/drawing3.jpg">
+    <img class="mySlides" src="./../assets/img/drawing4.jpg">
+    <img class="mySlides" src="./../assets/img/drawing5.jpg">
+    <img class="mySlides" src="./../assets/img/drawing7.jpg">
+    <img class="mySlides" src="./../assets/img/drawing9.jpg">
+    <button type="button" class="btn1" onclick="plusDivs(-1)"><i class='bx bx-left-arrow-alt'></i></button>
+    <button type="button" class="btn2" onclick="plusDivs(+1)"><i class='bx bx-right-arrow-alt'></i> </button>
+
+    <!-- <div class="content">
+        <h1>Make Your Trip</h1>
+        <h2>This was my first project i did after joining fwsa. After one week of learning
+             html, i did this project with in 3 days </h2>
+ </div> -->
+ <script>
+    
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length };
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+ </script>
+</body>
+
+</html>

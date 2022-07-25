@@ -1,0 +1,114 @@
+body{
+    background: linear-gradient(135deg, hsla(340, 75%, 78%, 1) 0%, hsla(176, 76%, 87%, 1) 100%);   
+    }
+.circle1 {
+    width: 55px;
+    height: 55px;
+    background-color: purple;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -200;
+    margin-left: 13%;
+    top: 18%;
+    filter: blur(8px);
+}
+.circle2 {
+    width: 85px;
+    height: 85px;
+    background-color: rgb(235, 192, 19);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -200;
+    margin-left: 4%;
+    top: 75%;
+    filter: blur(8px);
+}
+.circle3 {
+    width: 125px;
+    height: 125px;
+    background-color:rgb(234, 90, 176) ;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -200;
+    margin-left: 38%;
+    top: 48%;
+    filter: blur(8px);
+}
+.circle4 {
+    width: 155px;
+    height: 155px;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -200;
+    margin-left: 89%;
+    top: 48%;
+    filter: blur(8px);
+}
+
+.main-container {
+    background-color: rgba(255, 255, 255, 0.25);
+    border: 2px solid white;
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    left: 15%;
+    top: 0px;
+    z-index: -1;
+    margin-top: 8%;
+    border-radius: 20px;
+    filter: blur(2px);
+}
+.album_trip {
+    color: white;
+    margin-top: 210px;
+    height: 960px;
+    width: 1500px;
+    margin-left: 160px;
+    border-radius: 20px;
+}
+.grid-long {
+    margin-top: -10px;
+    width: 800px;
+    height: 550px;
+    border-radius: 20px;
+    margin-left: 130px;
+}
+.blue1 {
+    border-radius: 20px;
+    width: 380px;
+    margin-left: 50px;
+    margin-top: -50px;
+}
+.blue2 {
+    border-radius: 20px;
+    width: 380px;
+    margin-left: -385px;
+    margin-top: -40px;
+    position: absolute;
+}
+.grid-1 {
+    border-radius: 20px;
+    height: 300px;
+    width: 380px;
+    background-color: wheat;
+    margin-top: 50px;
+    margin-left: 150px;
+    float: left;
+}
+.grid-2 {
+    border-radius: 20px;
+    height: 300px;
+    width: 380px;
+    background-color: rebeccapurple;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.grid-3 {
+    border-radius: 20px;
+    height: 300px;
+    width: 380px;
+    background-color: red;
+    margin-top: -300px;
+    margin-left: 20px;
+}
